@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: absolute;
+    margin-top: 1%;
+    left: 2%;
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+
+    list-style: none;
+    position: absolute;
+    margin-top: 2%;
+    left: 11%;
+    display: flex;
+    gap: 25px;
+    font-family: serif;
+    font-size: 15px;
+
+
+}
+.one{
+    position: absolute;
+    margin-top: 2%;
+    left: 85%;
+    display: flex;
+    font-size: 20px;
+
+
+}
+.big video{
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.box1>.img1{
+    margin-top: 50%;
+    height: 105%;
+    width: 55%;
+    object-fit: cover;
+}
+.box1>.img2{
+    position: absolute;
+    left: 40%;
+    margin-top: 52%;
+    height: 105%;
+    width: 55%;
+    object-fit: cover;
+}
+.box2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+marquee{
+    color: rgb(168, 24, 24);
+    font-family: decorative fonts ;
+    font-size: 57px;
+    position: absolute;
+    margin-top: 56%;
+  
+}
+h3{
+    color: rgb(26, 9, 9);
+    position: absolute;
+    margin-top: 65%;
+    font-family: serif;
+}
+h4{
+    color: rgb(39, 27, 27);
+    position: absolute;
+    margin-top: 65%;
+    right: 0;
+    gap: 20px;
+}
+.box2>.img3{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 68%;
+    left: 0%;
+    object-fit: cover;
+
+}
+.box2>.first{
+    position: absolute;
+    margin-top: 105%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 5%;
+}
+.box2>.img4{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 68%;
+    left: 26%;
+    object-fit: cover;
+
+}
+.box2>.second{
+    position: absolute;
+    margin-top: 105%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 32%;
+}
+
+.box2>.img5{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 68%;
+    left: 52%;
+    object-fit: cover;
+
+}
+.box2>.third{
+    position: absolute;
+    margin-top: 105%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 60%;
+}
+.box2>.img6{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 68%;
+    left: 78%;
+    object-fit: cover;
+
+}
+.box2>.fourth{
+    position: absolute;
+    margin-top: 105%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 82%;
+}
+.box2>.img7{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 110%;
+    left: 0;
+    object-fit: cover;
+
+}
+.box2>.fifth{
+    position: absolute;
+    margin-top: 147%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 5%;
+}
+.box2>.img8{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 110%;
+    left: 26%;
+    object-fit: cover;
+
+}
+.box2>.six{
+    position: absolute;
+    margin-top: 147%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 32%;
+}
+.box2>.img9{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 110%;
+    left: 52%;
+    object-fit: cover;
+
+}
+.box2>.seven{
+    position: absolute;
+    margin-top: 147%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 60%;
+}
+.box2>.img10{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 110%;
+    left: 78%;
+    object-fit: cover;
+
+}
+.box2>.eight{
+    position: absolute;
+    margin-top: 147%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 82%;
+}
+.box2>.img11{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 152%;
+    left: 0;
+    object-fit: cover;
+
+}
+.box2>.nine{
+    position: absolute;
+    margin-top: 189%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 5%;
+}
+.box2>.img12{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 152%;
+    left: 26%;
+    object-fit: cover;
+
+}
+.box2>.ten{
+    position: absolute;
+    margin-top: 189%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 32%;
+}
+.box2>.img13{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 152%;
+    left: 52%;
+    object-fit: cover;
+
+}
+.box2>.eleven{
+    position: absolute;
+    margin-top: 189%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 60%;
+}
+.box2>.img14{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 152%;
+    left: 78%;
+    object-fit: cover;
+
+}
+.box2>.twelve{
+    position: absolute;
+    margin-top: 189%;
+    font-family: serif;
+    color: rgba(15, 0, 0, 0.559);
+    gap: 10px;
+    font-size: 13px;
+    left: 82%;
+}
+.box2>.img15{
+    height: 115%;
+    width: 95%;
+    position: absolute;
+    margin-top: 194%;
+    left: 3%;
+    object-fit: cover;
+}
+.box2>.thirdteen{
+    position: absolute;
+    margin-top: 248%;
+    font-family: sans-serif;
+    color: rgba(50, 3, 3, 0.755);
+    gap: 35px;
+    font-size: 18px;
+    left: 32%;
+}
+.box2>.img16{
+    height: 110%;
+    width: 90%;
+    position: absolute;
+    margin-top: 258%;
+    left: 5%;
+    object-fit: cover;
+}
+.box2>.video{
+    position: absolute;
+    margin-top: 320%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.box2>.fourtheen{
+    position: absolute;
+    margin-top: 370%;
+    font-family: sans-serif;
+    color: black;
+    font-size: 50px;
+    left: 40%;
+}
+.box2>.fifteen{
+    position: absolute;
+    margin-top: 375%;
+    font-family: serif;
+    color: rgba(50, 3, 3, 0.755);
+    gap: 35px;
+    font-size: 18px;
+    left: 8%;
+}
+.box2>.img17{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    margin-top: 378%;
+    left: 5%;
+    object-fit: cover;
+}
+.box2>.img18{
+    height: 90%;
+    width: 48%;
+    position: absolute;
+    margin-top: 425%;
+    left: 2%;
+    object-fit: cover;
+}
+.box2>.img20{
+    height: 90%;
+    width: 48%;
+    position: absolute;
+    margin-top: 425%;
+    left: 50%;
+    object-fit: cover;
+}
+.box2>.tag{
+    color: rgb(168, 24, 24);
+    font-family: decorative fonts ;
+    font-size: 57px;
+    position: absolute;
+    margin-top: 470%;
+}
+.box2>.seventeen{
+    color: rgb(26, 9, 9);
+    position: absolute;
+    margin-top: 477%;
+    font-family: serif;
+    font-size: 13px;
+}
+.box2>.eighteen{
+    color: rgb(39, 27, 27);
+    position: absolute;
+    margin-top: 477%;
+    right: 0;
+    gap: 20px;
+    font-size: 13px;
+}
+.box2>.img21{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 482%;
+    left: 0%;
+    object-fit: cover;
+}
+
+.box2>.img22{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 482%;
+    left: 26%;
+    object-fit: cover;
+}
+.box2>.img23{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 482%;
+    left: 52%;
+    object-fit: cover;
+}
+.box2>.img24{
+    height: 78%;
+    width: 25%;
+    position: absolute;
+    margin-top: 482%;
+    left: 78%;
+    object-fit: cover;
+}
+.box2>.nineteen{
+    position: absolute;
+    margin-top: 521%;
+    font-family: serif;
+    color: rgba(26, 1, 1, 0.703);
+    gap: 10px;
+    font-size: 13px;
+    left: 5%;
+}
+.box2>.twenty{
+    position: absolute;
+    margin-top: 521%;
+    font-family: serif;
+    color: rgba(27, 2, 2, 0.762);
+    gap: 10px;
+    font-size: 13px;
+    left: 32%;
+}
+.box2>.heading1{
+    position: absolute;
+    margin-top: 521%;
+    font-family: serif;
+    color: rgba(26, 1, 1, 0.76);
+    gap: 10px;
+    font-size: 13px;
+    left: 60%;
+}
+.box2>.heading2{
+    position: absolute;
+    margin-top: 521%;
+    font-family: serif;
+    color: rgba(36, 3, 3, 0.771);
+    gap: 10px;
+    font-size: 13px;
+    left: 82%;
+}
+.box2>.heading3{
+    position: absolute;
+    margin-top: 530%;
+    left: 3%;
+    gap: 20px;
+    font-size: 15px;
+}
+.box2>.heading4{
+    position: absolute;
+    margin-top: 530%;
+    left: 29%;
+    gap: 20px;
+    font-size: 15px;
+}
+.box2>.heading5{
+    position: absolute;
+    margin-top: 530%;
+    left: 59%;
+    gap: 20px;
+    font-size: 15px;
+}
+.box2>.heading6{
+    position: absolute;
+    margin-top: 530%;
+    left: 84%;
+    gap: 40px;
+    font-size: 15px;
+}
+.box2>.heading7{
+    position: absolute;
+    margin-top: 543%;
+    left: 45%;
+    gap: 50px;
+    font-size: 40px;
+    
+}
+.box2>.page1{
+    position: absolute;
+    width: 9%;
+    height: 6%;
+    margin-top: 549%;
+    left: 51%;
+    
+    
+}
+.box2>.page2{
+    position: absolute;
+    width: 9%;
+    height: 6%;
+    margin-top: 549%;
+    left: 36%;
+
+}
+.box2>.heading8{
+    position: absolute;
+    margin-top: 555%;
+    left: 43%;
+    font-family: sans-serif;
+    color: rgba(32, 9, 9, 0.812);
+    font-size: 40px;
+
+}
+
+.box2>.heading9{
+    position: absolute;
+    margin-top: 560%;
+    left: 24%;
+    font-family: sans-serif;
+    color: rgba(32, 9, 9, 0.736);
+    font-size: 13px;
+
+}
+.box2>.page3{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 29%;
+    object-fit: cover;
+}
+.box2>.page4{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 33%;
+    object-fit: cover;
+}
+.box2>.page5{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 38%;
+    object-fit: cover;
+}
+.box2>.page6{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 42%;
+    object-fit: cover;
+}
+.box2>.page7{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 46%;
+    object-fit: cover;
+}
+.box2>.page8{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 50%;
+    object-fit: cover;
+}
+.box2>.page9{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 54%;
+    object-fit: cover;
+}
+.box2>.page10{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 58%;
+    object-fit: cover;
+}
+.box2>.page11{
+    position: absolute;
+    margin-top: 563%;
+    width: 3%;
+    height: 4%;
+    left: 62%;
+    object-fit: cover;
+}
